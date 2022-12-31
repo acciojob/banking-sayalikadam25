@@ -6,6 +6,15 @@ public class BankAccount {
 
     private String name;
     private double balance;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private double minBalance;
 
     public BankAccount(String name, double balance, double minBalance) {
